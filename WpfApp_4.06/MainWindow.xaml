@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="StartButton" Content="Start Notepad" Click="StartProcess_Click" Width="150" Margin="10"/>
+            <Button x:Name="WaitForCompletionButton" Content="Wait for Completion" Click="WaitForCompletion_Click" Width="150" Margin="10" IsEnabled="False"/>
+            <Button x:Name="ForceCloseButton" Content="Force Close" Click="ForceClose_Click" Width="150" Margin="10" IsEnabled="False"/>
+            <TextBlock x:Name="CompletionCodeTextBlock" Text="Completion code will be displayed here" TextWrapping="Wrap" Margin="10" TextAlignment="Center"/>
+        </StackPanel>
     </Grid>
 </Window>
