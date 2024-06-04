@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Launch Notepad" Click="LaunchNotepad_Click" Width="200" Margin="5"/>
+            <Button Content="Launch Calculator" Click="LaunchCalculator_Click" Width="200" Margin="5"/>
+            <Button Content="Launch Paint" Click="LaunchPaint_Click" Width="200" Margin="5"/>
+            <Button Content="Launch Custom App" Click="LaunchCustomApp_Click" Width="200" Margin="5"/>
+        </StackPanel>
     </Grid>
 </Window>
