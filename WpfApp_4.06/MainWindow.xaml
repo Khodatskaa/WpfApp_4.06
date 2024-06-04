@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Start Process" Click="StartProcess_Click" Width="150" Margin="10"/>
+            <TextBlock x:Name="CompletionCodeTextBlock" Text="Result will be displayed here" TextWrapping="Wrap" Margin="10" TextAlignment="Center"/>
+        </StackPanel>
     </Grid>
 </Window>
